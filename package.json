@@ -1,0 +1,36 @@
+{
+    "name": "county-list-english-arabic-json",
+    "version": "1.0.0",
+    "description": "List of countries with arabic and english translation in json format that includes country dial code, country abbreviation and flag.",
+    "main": "index.js",
+    "type": "module",
+    "types": "types.d.ts",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HassanElshazlyEida/county-list-english-arabic-json"
+    },
+    "keywords": [
+        "country listing",
+        "country in json format",
+        "countries",
+        "geocode",
+        "country",
+        "code",
+        "dial code",
+        "country flag",
+        "flag",
+        "listing",
+        "arabic",
+        "english",
+        "translation"
+    ],
+    "author": "Hassan Elshazly Eida",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HassanElshazlyEida/county-list-english-arabic-json/issues"
+    },
+    "homepage": "https://github.com/HassanElshazlyEida/county-list-english-arabic-json#readme"
+}
