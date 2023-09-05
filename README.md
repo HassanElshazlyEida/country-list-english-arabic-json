@@ -2,14 +2,15 @@ List of countries in json format that includes country dial code, country abbrev
 
 ## Get Started
 
--   npm install county-list-english-arabic-json
+-   npm install country-list-translate-json
 -   import countries
 
-## Usage
+## Importing TypeScript types
+```
+import { countries } from 'country-list-translate-json';
+```
 
-**Get country name**
 
--   countries.name
 
 **Get arabic country name**
 
@@ -27,28 +28,19 @@ List of countries in json format that includes country dial code, country abbrev
 
 -   countries.flag
 
+
+
+## Usage
+access it one time 
+- countries.Egypt or countries['Egypt']
+
 ## Data Example
 
 ```
-[
-  {
-      name: "Japan",
-	    name_ar: "اليابان"
-      dial_code: "+81",
-      code: "JP",
-      flag: "🇯🇵"
+  "Egypt": {
+    name_ar: "مصر",
+    dial_code: "+20",
+    code: "EG",
+    flag: "🇪🇬"
   },
-  {
-      name: "Russia",
-	    name_ar: "روسيا",
-      dial_code: "+7",
-      code: "RU",
-      flag: "🇷🇺"
-  },
-]
-```
-
-## Importing TypeScript types
-```
-import { countries } from 'county-list-english-arabic-json';
 ```
