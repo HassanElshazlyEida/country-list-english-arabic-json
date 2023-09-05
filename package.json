@@ -1,6 +1,6 @@
 {
     "name": "country-list-translate-json",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "List of countries with arabic and english translation in json format that includes country dial code, country abbreviation and flag.",
     "main": "index.js",
     "type": "module",
@@ -16,7 +16,6 @@
         "country listing",
         "country in json format",
         "countries",
-        "geocode",
         "country",
         "code",
         "dial code",

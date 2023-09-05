@@ -1453,6 +1453,5 @@ export const countries =
           flag: "🇿🇼"
         }
 }
-console.log(countries['Wallis and Futuna'])
   
 
