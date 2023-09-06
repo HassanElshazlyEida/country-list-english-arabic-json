@@ -1,4 +1,4 @@
-export const countries =
+export const key_countries =
 {
         "Afghanistan": {
           name: "Afghanistan",
@@ -1695,5 +1695,5 @@ export const countries =
           flag: "🇿🇼"
         }
 }
-  
 
+export const  countries = Object.values(key_countries)

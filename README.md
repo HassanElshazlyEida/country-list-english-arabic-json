@@ -3,11 +3,10 @@ List of countries in json format that includes country dial code, country abbrev
 ## Get Started
 
 -   npm install country-list-translate-json
--   import countries
 
 ## Importing TypeScript types
 ```
-import { countries } from 'country-list-translate-json';
+import { countries , key_countries } from 'country-list-translate-json';
 ```
 
 
@@ -31,13 +30,13 @@ import { countries } from 'country-list-translate-json';
 
 
 ## Usage
-access it one time 
-- countries.Egypt or countries['Egypt']
+access it one time through key_countries
+- key_countries.Egypt or key_countries['Egypt']
 
 ## Data Example
 
 ```
-  "Egypt": {
+  {
     name_ar: "مصر",
     dial_code: "+20",
     code: "EG",
